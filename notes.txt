@@ -478,3 +478,719 @@ Class - 4
         -> Manipulate Data (Change Data)        
 
             -> Then We Need To Know About "Operators"
+
+Class - 5
+===========
+
+    -> Operators
+
+        -> Operators are special "Symbols" and "Keywords", which Performs 
+        Operations on Variables and their Values.
+
+        -> There are different types of operators, to deal with different types of data 
+
+    -> Arithmetic Operators 
+
+        -> To Perform Mathematical Calculations 
+
+            -> + - * / % 
+
+            -> // - Floor Division (Same As Division, But Rounds Off Result)
+
+            -> ** - Exponentiation (Same As Calculating Powers)
+
+        -> Try Building This Logic / Simple App 
+
+            -> https://www.cardekho.com/carmodels/Tata/Tata_Sierra
+
+    
+    
+    -> Compound Assignment Operators 
+
+        -> Assignment Operator is = 
+
+        -> Compound Assignment Operators, Combine Arithmetic Operators With 
+        Assignment Operator For Short Hand Code (Concise Code)
+
+        -> x = 10
+        -> x = x * 5 (Long Form)
+
+        -> x = 10
+        -> x *= 5 (Short Form)
+        -> x += 5 (Short Form)
+
+        -> NOTE: In Other Languages(Java) We Have Increment and Decrement Operators 
+
+            -> Increment (++) - Increases The Value
+
+            -> Decrement (--) - Decreases The Value
+
+            -> NOTE: Above Operators Are Not Supported In Python 
+
+            -> NOTE: Take Excel Sheet and Increment (person_id, product_id etc)
+
+            -> NOTE: We use loops 
+
+
+    -> Comparison Operators 
+
+        -> Comparison Operators Are Used To Compare Values 
+        and always results in Boolean Type (True/False)
+
+        -> NOTE: We Use Them In Conditionals 
+
+        -> >, <, <=, <=, ==, != 
+
+
+    -> Logical Operators 
+
+        -> Logical Operators Are Used For Performing Logical Operations 
+
+        -> Used To Check Multiple Conditions and Always Results In Boolean Type (True/False)
+
+            -> student enrolled and student attended all classes give course certificate with 5 Stars 
+
+            -> student enrolled and student attended few classes give course certificate with 4 Stars 
+
+            -> student not enrolled and student attended few classes give no course certificate 
+
+                -> and: If Both Conditions are True, Then Only Result is True, Otherwise False 
+                -> or: If One Of The Conditions is True, Then Only Result is True, Otherwise False 
+                -> not: Negates The Result, if True then False and Vice Versa 
+
+                            X       Y       X and Y    X or Y    not X    not Y
+                            T       T           T         T         F       F
+                            T       F           F         T         F       T
+                            F       T           F         T         T       F
+                            F       F           F         F         T       T 
+
+
+    -> Membership Operators 
+
+        -> Used To Check If An Given Object Is In Sequence 
+
+            -> in: Returns True, if Given Object Is In Sequence, Otherwise False 
+
+            -> not in: Returns True, if Given Object Is Not In Sequence
+
+    
+    -> Identity Operators 
+
+        -> Used To Check If Given Objects are Same 
+
+            -> is: Returns True, if Given Objects are Same, Otherwise False 
+
+            -> is not: Returns True, if Given Objects are Not Same 
+
+    
+    -> Bitwise Operators
+
+        -> Used In Low Level Programming (01010101010)
+
+                -> & - if both bits are 1, then result is 1, Otherwise 0 
+                -> | - if one of the bits is 1, then result is 1 
+                -> etc 
+
+
+Class - 6
+===========
+
+    -> Data Types 
+
+        -> Data Types Are "Categorization" That Defines, What Kind Of Data A Variable Can Hold 
+
+        -> Numeric Types 
+
+            -> int: 1,2,5,0,-1,-5 etc
+
+            -> float: 1.5,2.0,0.0,-1.5,-5.2 etc
+
+            -> complex: In mathematics, a + ib, the algebraic form of a complex number
+
+                -> In Python Complex Number Is Represented 
+
+                    -> a + bj 
+
+        -> Boolean Types 
+
+            -> bool: Represents True / False 
+
+        -> NoneType 
+
+            -> NoneType: Represents Absence Of Value 
+
+        -> String Type: 
+
+            -> str: Represents Sequence Of Characters Represented Using '' or " "   
+
+
+        -> Simple Data Types 
+
+            -> Holds Single Value Inside Variable
+
+        -> Complex Data Types 
+
+            -> Holds Multiple Value Inside Variable
+
+        -> Lists: List is a Complex Data Type, it holds Multiple Values 
+        and is Represented Using []
+
+        -> Tuples: Tuple is a Complex Data Type, it holds Multiple Values 
+        and is Represented Using ()
+
+        -> Sets: Set is a Complex Data Type, it holds Multiple Values 
+        and is Represented Using {}
+
+        -> Dictionaries: Dictionary is a Complex Data Type, it holds Multiple "Key Values" 
+        and is Represented Using {}
+
+        -> NOTE: All The Above Data Types Are Pre-Defined Inside Python Standard Library
+
+        -> NOTE: Based On Custom Requirements Coming From Clients, We Can Create Our Own Data Types 
+
+        -> Create Custom Data Types 
+
+            -> class CustomDataType:
+                    Statements  
+
+
+    -> Type Conversion & Type Casting 
+
+        -> Type Conversion / Implicit Conversion
+
+            -> Conversion Of One Data Type To Another Data Type, Automatically Done By Python 
+
+            -> Type Conversion Is SAFE i.e NO DATA LOSS 
+
+        
+        -> Type Casting / Explicit Conversion
+
+            -> Conversion Of One Data Type To Another Data Type, Manually Done By Developer
+
+            -> Type Casting Is NOT SAFE i.e DATA LOSS CAN OCCUR 
+
+            -> Syntax 
+
+                -> Using Casting Functions 
+
+                -> use data_type function_name before variable_name / value 
+
+                    -> data_type(variable_name)
+
+                    -> data_type(value)
+
+    
+
+    -> Control Structures / Control Statements 
+
+        -> Control Structures Helps You Determine The "Flow Of Execution"
+
+        -> Control Structures Allows To You 
+
+            -> Make Decisions 
+
+            -> Repeat Tasks 
+
+        
+        -> Python Has Given Three Types Of Control Structures 
+
+            -> Conditional Structures (Decision Making Statements)
+
+            -> Looping Structures (Iteration Statements) (Repetition)
+
+            -> Branching Structures (Jump Statements) 
+
+
+Class - 7
+===========
+
+    -> NOTE: To Work With Control Structures, We Need "Indentation" Knowledge 
+
+    -> Indentation 
+
+        -> Indentation in Python is a  Mandatory Aspect of it's Syntax,
+        Used to define the "Structure" and "Hierarchy" in "Code Blocks"
+
+            -> Statement: Single Line Of Code
+
+            -> Block: Multiple Lines Of Code 
+
+        -> Unlike Other Programming Language that use Curly Braces {} or Keywords 
+        to define block of code, Python entirely relies in "Consistent" Indentation 
+
+            -> Using Space As Indentation 
+
+        -> NOTE: Understanding Indentation means 
+
+            -> When to use Space 
+            -> When Not to use Space 
+            -> How many spaces to use
+        
+        -> NOTE: Python Allows for any "Consistent Number Of Spaces"  
+        the widely accepted and Recommended standard is 4 Spaces (tab)
+
+            -> When to use Space 
+
+                -> When We Write Block Of Code 
+
+            -> When Not to use Space 
+
+                -> Single Statement 
+
+            -> How many spaces to use
+
+                -> At least one is must, but Recommended is 4 spaces 
+
+
+    -> Python Has Given Three Types Of Control Structures 
+
+        -> Conditional Structures (Decision Making Statements)
+
+        -> Looping Structures (Iteration Statements) (Repetition)
+
+        -> Branching Structures (Jump Statements) 
+
+    
+    -> Conditional Structures (Decision Making Statements)
+
+        -> Used To Run "Block Of Code" Based On A Condition Result 
+
+        -> if Statement 
+
+            -> Runs A Block Of Code, If Condition Is True 
+
+            -> Syntax 
+
+                if condition:
+                    block of code 
+
+        -> if else Statement 
+
+            -> Runs A Block Of Code, If Condition Is True 
+            Runs Another Block Of Code, If Condition Is False 
+
+            -> Syntax 
+
+                if condition:
+                    block of code
+                else:
+                    block of code
+
+        -> NOTE: We Have input() function, Reads Input From User 
+        and Stores The Value As String. 
+
+        
+        -> Interpolation 
+
+            -> Interpolation technique replaces, place holders with actual values dynamically
+
+            -> Using "f-strings" (Formatted String Literals)
+
+                -> We Use f with print() and {} as place holders 
+
+                -> https://printitnice.com/wp-content/uploads/2024/06/stkr22d023-01.webp
+
+
+Class - 8
+===========
+
+    -> Conditional Expression 
+
+        -> Conditional Expression provides a concise way(short hand code)
+        to write if else condition in one single line 
+
+        -> NOTE: It evaluates a condition and returns one of two values 
+        based on whether the condition is True or False.
+
+            -> Syntax 
+                
+                value_if_true if condition else value_if_false 
+
+
+    -> elif ladder 
+
+        -> It is used in Conditional Statements to Check "Multiple Conditions"
+
+        -> Syntax 
+
+            if condition:
+                block of code
+            elif conceptualize:
+                block of code
+            elif conceptualize:
+                block of code
+            elif conceptualize:
+                block of code
+            elif conceptualize:
+                block of code
+            else:
+                block of code
+
+    
+    -> match case 
+
+        -> The match/case statement (introduced in Python 3.10) is used for 
+        structural "pattern matching" 
+
+        -> NOTE: In Other Languages We Have switch-case, which is same as 
+        match case in python.
+
+        -> Syntax:
+
+            match expression:
+                case pattern_1:
+                    block of code 
+                case pattern_2:
+                    block of code 
+                case pattern_3:
+                    block of code 
+                case pattern_4:
+                    block of code 
+                .
+                .
+                case _:
+                    default block of code
+
+        -> NOTE: Use match case when 
+
+            -> You are comparing one Variable, Against Fixed Constant Values   
+
+                -> Like 
+
+                    Menu Options (ATM) 
+                    Months 
+                    HTTP Status Codes 
+                    Roles 
+            
+            -> https://miro.medium.com/v2/0*emwCsVL6_veL1d0I
+
+        -> NOTE: Use elif when, you are checking Conditions 
+
+            -> Like 
+
+                Marks >= 90 
+                Age >= 18
+                Salary >= 50000     
+
+    
+    -> Nested Conditionals 
+
+        -> Conditionals inside Conditionals
+
+        -> This allows the program to evaluate multiple criteria sequentially, 
+        where the inner condition is only checked if the outer condition is true. 
+
+    
+    -> NOTE: Work On conditionals_tasks.md file which you can access from GitHub Link 
+
+        -> https://github.com/ravi2krishna/py-2621/tree/main/05_control_stmts
+
+        
+
+    -> Looping Structures (Iteration Statements) (Repetition)
+
+        -> Loops in Python are used to "repeatedly" execute a block of code 
+        until a specific condition is met or for each item in a sequence.
+
+            -> Repeatedly execute a block of code until a specific condition is met
+
+                -> Every Month Last 3 Days, Send SMS / Email To Customer About EMI Deduction
+                till the loan is closed  
+
+            -> Repeatedly execute a block of code for each item in a sequence
+
+                -> Products Catalog With 15k Products (Ecommerce Platform), Now We have Clearance 
+                Sale Apply 15% Discounts On All The Products 
+
+            -> NOTE: Python Has Given while and for Keywords  
+
+            -> We Have while loops and for loops 
+
+                
+Class - 9
+===========
+
+    -> while loop 
+
+        -> while loops execute a block of code repeatedly 
+        as long as a specified condition remains True
+
+        -> Syntax
+
+            while condition:
+                block of code to repeat
+
+        -> NOTE: We Use while loop, when we don't know 
+        Number Of Iterations / Repetitions In Advance.
+
+
+
+    -> for loop 
+
+        -> for loop is used to "iterate over a sequence" 
+        (like a list, tuple, string etc) 
+
+        -> NOTE: For loop executes a block of code once, for each item in the sequence. 
+
+        -> Syntax 
+
+            for variable_name in sequence:
+                block of code to repeat
+
+        -> NOTE: We Use for loop, when we know 
+        Number Of Iterations / Repetitions In Advance.
+
+
+    
+    -> range() function 
+
+        -> The range() function in Python generates a sequence of numbers. 
+        It is commonly used for iterating a specific number of times in for loops. 
+
+        -> Syntax 
+
+            range(start, stop, step)
+                -> start default is 0 (included) (inclusive)
+                -> stop at this value (excluded) (exclusive)
+                -> step is increment (default step is 1)
+
+
+Class - 10
+===========
+
+    -> Nested Loops 
+
+        -> Loops Inside Loops 
+
+        -> A nested loop in Python is a "loop placed inside the body of another loop". 
+        This structure is used to handle multidimensional data (like grids or lists within lists), 
+        generate patterns, and perform actions that require "multiple layers of iteration".
+
+
+    -> Branching Structures (Jump Statements) 
+
+        -> Used Within Loops, these Statements Also Control The Flow Of Execution 
+
+            -> Allowing You To Exit Loop Early (break)
+
+            -> Allowing You To Skip Current Iteration (continue) 
+
+                -> break: Helps You Exits Loops 
+
+                -> continue: Helps You Skip Current Iteration 
+
+                -> pass: Acts as a Placeholder, Does Nothing 
+
+
+    -> NOTE: Work On loops_tasks.md file which you can access from GitHub Link 
+
+        -> https://github.com/ravi2krishna/py-2621/tree/main/05_control_stmts
+
+
+Class - 11
+===========
+
+    -> Strings 
+
+        -> Strings are one of the "Most Widely Used Datatype" in any programming language
+
+        -> Strings are preferred for Taking Inputs In Web Applications 
+
+        -> User Registration / User Login 
+
+            -> username
+            -> password 
+            -> first name 
+            -> last name 
+            -> etc 
+
+        -> NOTE: Most of the inputs we process from web pages of an Application are Strings 
+
+
+        -> In Python String is a "Sequence Of Characters" used to represent data.
+
+        -> Syntax For representing Strings 
+
+            -> Strings can be enclosed in '' or " " or """ """ or ''' '''
+
+            -> Single Line Strings: Use '' or " "
+
+            -> Multi Line Strings: Use """ """ or ''' ''' 
+
+        
+        -> Rules When Defining Strings 
+
+            -> When you use single quote in a string, enclose them in double quotes 
+            -> When you use double quote in a string, enclose them in single quotes 
+            -> When you use both single quote and double quote in a string, 
+            enclose them in triple single / double quotes 
+
+        -> Accessing Strings 
+
+            -> Indexing 
+
+                -> String indexing in Python allows access to "individual characters within a string" 
+                using their "position", known as the "index".
+
+                -> Python uses zero-based indexing, meaning the first character is at index 0, 
+                the second at index 1, and so on.
+
+                -> Syntax 
+
+                    print(string[index])
+
+                -> Positive Indexing:
+                Starts from the beginning of the string.
+                The index of the first character is 0.
+
+                -> Negative Indexing:
+                Starts from the end of the string.
+                The index of the last character is -1.
+
+                0   1 2  3  4  5
+                p   y t  h  o  n
+                -6 -5 -4 -3 -2 -1   
+
+                -> NOTE: When You Access Index, which is not present, we get IndexError 
+
+
+            -> Slicing 
+
+                -> String slicing in Python is a method for "extracting a portion" (substring) 
+                from a larger string. It utilizes the slice operator [] with specific 
+                indices to define the desired segment. 
+
+                -> Syntax 
+
+                    string[start:stop:step]
+                        
+                        -> start default is 0 (included) (inclusive)
+                        -> stop at this value (excluded) (exclusive)
+                        -> step is increment (default step is 1)
+
+                    range(start,stop,end)
+
+
+        -> String Concatenation 
+
+            -> Joining Strings Using + Operator 
+
+        -> Formatted String Literals (f-strings)
+
+            -> Using Interpolation {} Using f 
+
+        -> String Repetition 
+
+            -> Repeat Strings Using * Operator 
+
+        -> String Immutability 
+
+            -> Immutability Means Cannot Be Modified / Changed 
+
+            -> Strings are Immutable In Nature   
+
+    
+    -> String Methods
+
+        -> String Methods In Python are Built-in Methods that operates on string objects 
+        allowing you to perform 
+
+            -> Manipulations 
+
+            -> Transformations  
+
+            -> Validations 
+
+        
+        -> NOTE: It is important to note that strings in Python are immutable, 
+        meaning these methods do not modify the original string but 
+        instead return a new string with the applied changes.
+
+        -> https://docs.python.org/3/library/stdtypes.html#string-methods
+
+        -> NOTE: dir() function, gives you list of all operations you can perform 
+        on an object
+
+
+Class - 12
+===========
+
+    -> String Methods Continued 
+
+
+Class - 13
+===========
+
+    -> Simple Data Types 
+
+        -> Can Hold "One Value" In a Variable 
+
+            -> data = 10
+            -> data = 10.5
+            -> data = "hello" 
+
+    -> Complex Data Types 
+
+        -> Can Hold "Multiple Values" In a Variable 
+
+            -> data = 10,5,8,1,2
+            -> data = 10.5,0.5,1.5 
+            -> data = "hello","hi","hey" 
+
+    -> Python Provides Following Classes To Work With Complex Data Types 
+
+        -> List 
+
+        -> Tuple 
+
+        -> Dictionary
+
+        -> Set 
+
+    -> Lists 
+
+        -> List is a data structure which allows you to store multiple values 
+        in a single Variable, each value is separated with , 
+
+        -> Lists are Represented using [] or "list" class 
+
+        -> Accessing Data In Lists 
+
+            -> Like In Strings, We Have Index Concept In Lists Too 
+
+            -> Index Starts From Zero 
+
+            -> Support Both Positive and Negative Indexing 
+
+            -> Slicing Is Same As Strings 
+
+            -> Loops We Can Apply 
+
+            -> Operators We Can Apply 
+
+            -> Conditionals We Can Apply 
+
+            -> Duplicates Allowed 
+
+            -> Insertion Order Preserved 
+
+        -> Characteristics Of Lists
+
+            -> Mutable: Lists are Mutable In Nature 
+
+            -> Order: Lists Order Is Preserved 
+
+            -> Duplicates: Lists Allows Duplicates 
+
+
+        -> NOTE: Requirement: Store Multiple Employees PAN ID's 
+
+        -> After 3 Months Client Gave New Requirement
+
+        -> NOTE: New Requirement, Store Multiple Employee PAN ID's  
+        and Make Sure ID's Cannot Be Changed  
+
+        -> After 3 Months Client Gave New Requirement
+
+        -> NOTE: New Requirement, Store Multiple Employee PAN ID's  
+        and Make Sure ID's Cannot Be Changed and also PAN ID's  should be Unique 
