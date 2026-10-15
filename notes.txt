@@ -1194,3 +1194,602 @@ Class - 13
 
         -> NOTE: New Requirement, Store Multiple Employee PAN ID's  
         and Make Sure ID's Cannot Be Changed and also PAN ID's  should be Unique 
+
+Class - 14
+===========    
+
+    -> Tuples 
+
+        -> Tuple is a data structure which allows you to store multiple values 
+        in a single Variable, each value is separated with , 
+
+        -> Tuples are Represented using () or "tuple" class 
+
+        -> Accessing Data In Tuples 
+
+            -> Like In Strings, We Have Index Concept In Tuples Too 
+
+            -> Index Starts From Zero 
+
+            -> Support Both Positive and Negative Indexing 
+
+            -> Slicing Is Same As Strings 
+
+            -> Loops We Can Apply 
+
+            -> Operators We Can Apply 
+
+            -> Conditionals We Can Apply 
+
+            -> Duplicates Allowed 
+
+            -> Insertion Order Preserved 
+
+        
+        -> Characteristics Of Tuples
+
+            -> Immutable: Tuples are Immutable In Nature 
+
+            -> Order: Tuples Order Is Preserved 
+
+            -> Duplicates: Tuples Allows Duplicates 
+
+            -> NOTE: Tuples are READ ONLY LISTS 
+
+        -> NOTE: Requirement: Store Multiple Employees PAN ID's 
+
+        -> After 3 Months Client Gave New Requirement
+
+        -> NOTE: New Requirement, Store Multiple Employee PAN ID's  
+        and Make Sure ID's Cannot Be Changed 
+
+            -> Will Use Tuples  
+
+    
+    
+    -> Dictionaries 
+
+        -> Dictionary is a data structure which allows you to "store multiple key values" 
+        in a single Variable, each value is separated with , 
+
+        -> Dictionaries are Represented using {} or "dict" class 
+
+        -> Dictionaries Store Data in Key Values (pairs/items) 
+
+            -> key:value (pair/item)
+
+            -> {key1:value1,key2:value2,key3:value3}
+
+            -> https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSib6nLERnnqTxvDUQa5l1ykY9tHPi8c9mWOQV2nwnRl0vXzj01vhWtr-o&s=10
+
+
+        
+        -> Accessing Data In Dictionaries 
+
+            -> Like In Strings, We DON'T Have Index Concept In Dictionaries
+
+            -> Doesn't Support - Index Starts From Zero 
+
+            -> Doesn't Support Both Positive and Negative Indexing 
+
+            -> Doesn't Support Slicing 
+
+            -> Loops We Can Apply 
+
+            -> Operators We Can Apply 
+
+            -> Conditionals We Can Apply 
+
+            -> Duplicates Allowed (*)
+
+                -> Values Can Be Duplicated 
+
+                -> Key Should Ne Unique 
+
+                    -> If We Add Duplicate Key, Latest Key Will Override Old Key 
+
+            -> Values Can Be Any Kind Of Objects 
+
+            -> Keys Can Be Only Immutable Objects 
+
+                -> NOTE: Majority Of The Times, Keys Will Be Strings
+
+            -> Insertion Order Is Preserved 
+
+            -> Dictionaries Are Mutable
+
+
+Class - 15
+===========           
+
+    -> Dictionaries Continued 
+
+    -> Characteristics Of Dictionaries
+
+            -> Mutable: Dictionaries are Mutable In Nature 
+
+            -> Order: Dictionaries Order Is Preserved 
+
+            -> Duplicates: Dictionaries Allows Duplicates For Values   
+
+
+
+    -> Sets 
+
+        -> Set is a data structure which allows you to "store multiple values" 
+        in a single Variable, each value is separated with , 
+
+        -> Sets are Represented using {} or "set" class 
+
+        -> Accessing Data In Sets 
+
+            -> Like In Strings, We DON'T Have Index Concept In Sets
+
+            -> Doesn't Support - Index Starts From Zero 
+
+            -> Doesn't Support Both Positive and Negative Indexing 
+
+            -> Doesn't Support Slicing 
+
+            -> Loops We Can Apply 
+
+            -> Operators We Can Apply 
+
+            -> Conditionals We Can Apply 
+
+            -> Duplicates Not Allowed (*)
+
+            -> Insertion Order Is Not Preserved 
+
+            -> Sets Are Mutable
+
+        -> NOTE: To Easily Remember Sets (UUU)
+
+            -> U - Unique Data  
+
+            -> U - Unordered Data 
+
+            -> U - Unindexed Data 
+
+        
+        -> NOTE: With sets we can do Mathematical set operations (class X - XI)
+
+            -> https://i0.wp.com/mathematicalmysteries.org/wp-content/uploads/2023/08/e-math-set-notation-venn-diagram.jpg?fit=800%2C539&ssl=1
+
+
+Class - 16
+===========
+
+    -> Sets Continued 
+
+        -> Characteristics Of Sets
+
+            -> Mutable: Sets are Mutable In Nature 
+
+            -> Order: Sets Are Unordered 
+
+            -> Duplicates: Sets Doesn't Allows Duplicates 
+
+
+    -> frozenset 
+
+        -> frozenset is a data structure which allows you to "store multiple values" 
+        in a single Variable, each value is separated with , 
+
+        -> frozenset are Represented using "frozenset" class 
+
+        -> Accessing Data In frozenset 
+
+            -> Like In Strings, We DON'T Have Index Concept In frozenset
+
+            -> Doesn't Support - Index Starts From Zero 
+
+            -> Doesn't Support Both Positive and Negative Indexing 
+
+            -> Doesn't Support Slicing 
+
+            -> Loops We Can Apply 
+
+            -> Operators We Can Apply 
+
+            -> Conditionals We Can Apply 
+
+            -> Duplicates Not Allowed (*)
+
+            -> Insertion Order Is Not Preserved 
+
+            -> frozenset Are Immutable
+
+        -> NOTE: To Easily Remember frozenset (UUU)
+
+            -> U - Unique Data  
+
+            -> U - Unordered Data 
+
+            -> U - Unindexed Data 
+
+        
+        -> NOTE: With frozenset we can do Mathematical frozenset operations (class X - XI)
+
+            -> https://i0.wp.com/mathematicalmysteries.org/wp-content/uploads/2023/08/e-math-set-notation-venn-diagram.jpg?fit=800%2C539&ssl=1
+
+
+        -> Characteristics Of frozenset
+
+            -> Immutable: frozenset are Immutable In Nature 
+
+            -> Order: frozenset Are Unordered 
+
+            -> Duplicates: frozenset Doesn't Allows Duplicates 
+
+
+    
+    -> NOTE: Now We Know, How Lists, Tuples, Dictionaries and Sets Work 
+
+    -> NOTE: How / When To Use Above Data Structures In Applications ?? 
+
+        -> How / When To Use Lists ??
+
+        -> How / When To Use Tuples ??
+
+        -> How / When To Use Dictionaries ??
+
+        -> How / When To Use Sets ??
+
+    
+
+    -> CRUD Applications 
+
+        -> CRUD stands for Create, Read, Update, and Delete, the four fundamental,
+        persistent operations for managing data within databases and software applications.
+
+        -> These operations allow users to add new data, view existing data, modify data, and 
+        remove data, forming the "backbone of most web applications" and user interfaces. 
+
+        -> We use CRUD for applications that require persistent storage, such as content management 
+        systems, e-commerce sites, and customer relationship management (CRM) tools. 
+        Examples include online forms, user profile pages, and dashboards for managing records.
+
+        -> https://drive.google.com/file/d/1Yabj4nFUx_1g6eAw3EsEsopEWxivTK2Z/view?usp=sharing
+
+        -> https://drive.google.com/file/d/1gpWYycwbeRWrmShF5Hc1V86KcIVYJCfE/view?usp=sharing
+
+
+
+Class - 17
+===========
+
+    -> CRUD Application Implementation
+
+
+Class - 18
+===========
+
+    -> CRUD Application Implementation
+
+    
+    -> NOTE: Build Ecommerce Product Inventory System 
+
+        -> Create Product (product id, product name, product description, product price, product quantity)
+        -> Update Product Price, Product Quantity
+        -> Delete Product 
+        -> Read Product 
+        
+        -> Ask User To Purchase Product, if product is available (i.e Product Quantity above 0)
+        let the user purchase it, then decrease Product Quantity by 1 
+        
+        -> Get Report: List Of All Products 
+        -> Get Report: Total Products Value (3 products) 
+
+            -> p1 - price is 100 - available Quantity is 3 -> 300
+            -> p2 - price is 200 - available Quantity is 5 -> 1000
+            -> p3 - price is 100 - available Quantity is 5 -> 500
+
+            -> Total Products Value - 1800
+
+
+Class - 19
+===========
+
+    -> Functional Programming 
+
+        -> In computer science, functional programming is a programming paradigm 
+        where programs are constructed by applying and composing "functions"
+
+
+    -> Functions 
+
+        -> In Python, a function is a named, "reusable block of code" that performs 
+        a specific task, takes input (arguments), processes data, 
+        and can return an output.
+
+    
+    -> Why Functions 
+
+        -> Functions can break down complex problems into smaller and
+        simpler manageable sub tasks for promoting code modularity. 
+
+        -> Once defined a function, it can be "called multiple times", so that 
+        we can achieve code reusability.
+
+    
+    -> Functions are defined using "def" keyword, followed by function name,
+    parenthesis(which may contain parameters), and a colon:
+    the code within the function is indented 
+
+        -> Syntax
+
+            def function_name():
+                statements
+
+            def function_name(parameters):
+                statements
+
+        -> NOTE: calling function is must
+
+            function_name()
+            function_name(parameters)
+
+    
+        -> Python functions can be defined to accept "parameters" 
+        which can act as placeholders for values that will be 
+        passed into function when called. 
+
+        -> We use parameters to make functions dynamic in nature
+
+
+    -> Based On Arguments Passed To Functions, We Got Five Types 
+
+        -> Positional Arguments 
+
+        -> Keyword Arguments 
+
+        -> Default Arguments 
+
+        -> Arbitrary Positional Arguments 
+
+        -> Arbitrary Keyword Arguments    
+
+    
+    
+    -> Positional Arguments 
+
+        -> In Python, positional arguments are values passed to a function during 
+        its call, where the assignment of these values to the function's parameters 
+        is determined solely by their "order" (position) in the argument list. 
+
+        -> The first argument in the function call is assigned to the first parameter 
+        in the function definition, the second to the second, and so on.
+
+        -> Order Matters: If the order is incorrect, the function will receive the wrong values 
+        for its intended parameters, potentially leading to errors or unexpected behavior. 
+
+
+    -> Keyword Arguments 
+
+        -> In Python, keyword arguments are a way to pass values to a function by explicitly 
+        "naming the parameters" they correspond to, rather than relying on their position 
+        in the argument list. 
+
+        -> This offers advantages, primarily in terms of code readability and flexibility.
+
+
+    -> Default Arguments 
+
+        -> In Python, default arguments allow you to define a function parameter 
+        with a "pre-assigned" value i.e default value 
+
+        -> If a caller does not provide an argument for that parameter during a function call, 
+        the default value is automatically used. 
+        If an argument is provided, it overrides the default.
+
+        -> Placement Requirement: Default arguments must always be placed after 
+        any non-default arguments in the function definition. 
+        Attempting to place a non-default argument after a 
+        default argument will result in a SyntaxError.
+
+
+Class - 20
+===========
+
+    -> Arbitrary Positional Arguments 
+
+        -> Arbitrary means unknown or random 
+
+        -> In Python, arbitrary Positional arguments allow a function to accept 
+        a unknown number of Positional arguments. 
+
+        -> This is achieved by placing an asterisk (*) before a parameter name 
+        in the function definition.
+
+        -> This parameter will then collect all the positional arguments 
+        passed to the function into a tuple. 
+
+    
+    -> Arbitrary Keyword Arguments 
+
+        -> Arbitrary means unknown or random 
+
+        -> In Python, arbitrary keyword arguments allow a function to accept 
+        a unknown number of Keyword arguments. 
+
+        -> This is achieved by placing two asterisks (**) before a parameter name 
+        in the function definition.
+
+        -> This parameter will then collect all the Keyword arguments 
+        passed to the function into a Dictionary, 
+        where names will be keys and value is value 
+
+    
+    -> return 
+
+        -> In Python, the "return" keyword is used within a function 
+        to send a value back to the part of the code that called the function.
+
+            -> Task -> O/P -> I/P For Another Task (Fails)
+
+            -> Task -> return O/P -> I/P For Another Task (Succeeds)
+
+        -> When working with function composition (function calling another function), 
+        return will be helpful
+
+        -> NOTE: when you don't use a return, by default a function returns None 
+
+        -> If you use return, make sure it's the last part of statement to be executed 
+
+        -> If you have multiple return statements, first return will be considered   
+
+
+Class - 21
+===========
+
+    -> Scopes In Functions 
+
+        -> Scope: Inside the function is where you can access data, depends on scope. 
+
+            -> Local Scope 
+
+            -> Global Scope 
+
+
+        -> Local Scope 
+
+            -> A Variable Defined Inside Function 
+
+            -> It's lifetime exists only within the function
+
+            -> We cannot use them outside the function    
+            
+            -> NOTE: Parameters we pass to the functions, are also local variables 
+
+        
+        -> Global Scope 
+
+            -> A global variable declared "outside the function" 
+
+            -> It's lifetime exists within the function, as well as outside the function 
+
+            -> As global variables can be accessed inside the functions, there can be
+            name conflicts, in this scenario the preference is given to local variables
+
+                -> NOTE: To Access Global Variable in above scenario, use globals()
+
+            -> If you want global variables to be changed inside the function, we cannot 
+            do that directly 
+
+                -> NOTE: To Change global variable inside the function, use global keyword 
+
+    
+    -> Types Of Functions 
+
+        -> Built In Functions 
+
+        -> User Defined Functions 
+
+        -> Lambda Functions 
+
+        -> Higher Order Functions  
+
+    
+    -> Built In Functions 
+
+        -> Pre Defined Functions, Provided as the part of Python Standard Library 
+
+        -> We Don't Need To Create Explicitly again using def keyword 
+
+        -> Just Call Them Using function_name 
+
+        -> Examples 
+
+            -> print(), id(), type(), dir(), input() etc 
+
+
+    -> User Defined Functions 
+
+        -> User Defined Functions are Created By Developers using def keyword
+
+        -> User Defined Functions are Created based on Custom Requirements 
+
+        -> Examples 
+
+            -> add(), emp_info(), math_ops(), profile() etc 
+
+    
+    -> Lambda Functions 
+
+        -> A Lambda Function in Python is a Small Anonymous Function(Nameless)
+        which is defined using "lambda" keyword 
+
+        -> Unlike Standard Functions(block of code), 
+        Lambda functions are restricted to single line expression 
+
+        -> Unlike Standard Functions, Lambda functions automatically returned(Implicit) 
+        without using a return statement
+
+        -> Lambda Functions are often used for "short, one-time operations" 
+        where a full function definition would be unnecessarily verbose.
+
+        -> Using lambda we can write "one liner functions" called "IILE" 
+        Immediately Invoked Lambda Expression
+
+            -> Syntax 
+
+                lambda arguments:expression 
+
+        -> NOTE: Generally Lambda Functions Will be attached with Higher Order Functions 
+
+
+
+    -> Higher Order Functions 
+
+        -> Higher Order Functions Performs Operations On Iterables 
+
+        -> Concise Code, Without Writing Lengthy / Verbose Code 
+        Using Loops & Conditionals 
+
+        -> NOTE: Imperative vs Declarative (How To Do vs What To Do)
+
+
+Class - 22
+===========
+
+            -> map()
+
+                -> The map() function in Python is a built-in function that applies 
+                a given function to each item in an iterable (like a list, tuple, or string) 
+                and returns an iterator containing the results. 
+                    
+                -> It provides a concise way to perform "transformations" on 
+                collections of data without explicitly writing loops. 
+
+                -> Functional Programming 
+
+                    -> In computer science, functional programming is a programming paradigm 
+                    where programs are constructed by applying and composing "functions"
+
+                    -> Syntax
+
+                        map(function, iterable)
+
+                -> NOTE: Just Like Using For Loop with function
+
+                    -> Using the map() Function (Data Transformation)
+
+
+    -> filter()
+
+        -> filter() function applies a given function(preferably lambda function)
+        to each item in an Iterable and returns an Iterator Containing Results. 
+
+        -> NOTE: filter() function provides a Concise Way To Perform 
+        "Data Extractions" Without Using Length Loops With Conditionals. 
+
+        -> It is a powerful tool for "selectively extracting data" based on a "given condition".
+
+        -> Syntax 
+
+            filter(function,Iterable)
+
+        -> NOTE: Just Like Using For Loop and Conditionals With Standard Functions  
+
+        -> NOTE: Used Widely In Data Extractions 
