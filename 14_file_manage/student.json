@@ -1,0 +1,9 @@
+{
+    "id": 101,
+    "name": "Krupa",
+    "courses": [
+        "python",
+        "ai"
+    ],
+    "gpa": 7.2
+}
