@@ -182,3 +182,71 @@ print("=" * 50)
 
 # Calling Static Method
 Student.calculator(10,5)
+
+# Working with multiple objects
+# Class - Blue print
+class Student:
+
+    # Class Variables - Shared Data
+    institute_name = "Digital Marketing"
+    course = "python"
+
+    # Constructor
+    def __init__(self, student_name, student_email):
+        print("Constructor Call")
+        # Object "HAS" something like characteristics/properties (Actions)
+        # Student Has - Name, Email, Gender, Course etc 
+        # Instance Variables - self.student_name & self.student_email
+        self.student_name = student_name
+        self.student_email = student_email
+
+    # Object "DOES" Something like Behaviors / Actions (Methods)
+    # Student Does - Studies, Attends, Takes Exams etc 
+    # self is object reference
+    # Instance Method
+    def student_studies(self):
+        print(f"Welcome to {self.institute_name}") # not recommended
+        print("Student Course: ", Student.course) # recommended
+        print("Student name: ", self.student_name)
+        print("Student Email: ", self.student_email)
+
+    # Class Method
+    @classmethod
+    def change_insitute_name(cls,new_name):
+        cls.institute_name = new_name
+
+    # Static Method
+    @staticmethod
+    def calculator(num1,num2):
+        print(f"Sum IS: ", num1+num2)
+        print(f"Substract IS: ", num1-num2)
+        print(f"Product IS: ", num1*num2)
+
+# To use this class, we need an object
+student_krupa = Student("Krupa", "krupa@gmail.com")
+student_krupa.student_studies()
+
+print("=" * 50)
+
+student_john = Student("John","john@gmail.com")
+student_john.student_studies() 
+
+print("=" * 50)
+
+# Calling class methods
+Student.change_insitute_name("Digital New Marketing")
+
+student_krupa = Student("Krupa", "krupa@gmail.com")
+student_krupa.student_studies()
+
+print("=" * 50)
+
+student_john = Student("John","john@gmail.com")
+student_john.student_studies() 
+
+print("=" * 50)
+
+# Calling Static Method
+Student.calculator(20,5)
+
+print("=" * 50)
